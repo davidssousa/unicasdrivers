@@ -1,3 +1,18 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+.section-header {
+    padding-bottom: 30px;
+}
+
 .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -16,6 +31,7 @@
     letter-spacing: 2px;
     margin-top: 25px;
     font-family: merienda;
+    color: pink;
 }
 
 .carousel-caption p {
@@ -25,12 +41,13 @@
     line-height: 1.9;
     font-family: poppins;
     margin: 20px auto;
+    color: pink;
 }
 
 .carousel-caption button {
-    color: tomato;
+    color: pink;
     border-radius: 30px;
-    border: 2px solid tomato;
+    border: 2px solid pink;
     padding: 10px 50px;
     font-weight: bold;
 }
@@ -45,7 +62,7 @@
     background: #262626;
     padding: 10px 30px;
     display: inline-block;
-    color: #fff;
+    color: pink;
     margin-top: 15px;
 }
 
@@ -57,7 +74,7 @@
 }
 
 .navbar-light .navbar-brand {
-    color: #fff;
+    color: pink;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
@@ -66,11 +83,11 @@
 
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show, .navbar-light  .navbar-nav .show > .nav-link {
-    color: #fff;
+    color: pink;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #fff;
+    color: pink;
 }
 
 .navbar-nav {
@@ -78,7 +95,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: red !important;
+    color: pink !important;
 }
 
 .w-100 {
@@ -93,20 +110,316 @@
         padding: 1px 5px;
         font-size: 18px;
         line-height: 0.3;
-        background: #fff; 
+        background: pink; 
     }
     .navbar-light .navbar-brand {
         font-size: 15px;
     }
     li.nav-item.active > a.nav-link {
-        color: red !important;
+        color: pink !important;
     }
 }
 
 
+/* ABOUT */
+.about-img img {
+    width: 100%;
+}
+.item-text {
+    padding-left: 15px;
+}
+.about-img {
+    padding-right: 15px;
+}
+.item-text h4 {
+    margin-bottom: 30px;
+}
+
+/* BANNER */
+.banner1 {
+    background-image: url(../images/banner_1.png);
+}
+.banner2 {
+    background-image: url(../images/banner_2.jpg);
+}
+.banner3 {
+    background-image: url(../images/banner_3.jpg);
+}
+.banner {
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+.banner:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, transparent);
+    z-index: 1;
+}
+
+
+/* STATS */
+
+.stats-area {
+    background-image: url(../images/about.jpg);
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+.stats-area:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #000, transparent);
+    z-index: -1;
+}
+.single-stats {
+    color: pink;
+    text-align: center;
+}
+.single-stats i {
+    margin-bottom: 20px;
+}
+.single-stats h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.single-stats p {
+    font-family: 'Audiowide', cursive;
+}
+
+
+/* SERVICES */
+
+.services-area {
+    text-align: center;
+}
+.single-service {
+    border: 1px solid #ddd;
+    padding: 30px 20px;
+    margin-bottom: 15px;
+}
+.single-service h2 {
+    margin: 15px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.single-service:hover {
+    background: #262626;
+    color: pink;
+    transition: .6s;
+}
+
+/* AWARD */
+
+.award-area {
+    position: relative;
+    background-image: url(../images/about.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+    text-align: center;
+}
+.award-area:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,#000,transparent);
+    z-index: -1;
+}
+.single-award h2 {
+    color: pink;
+    text-transform: uppercase;
+    font-family: 'Audiowide', cursive;
+}
+.single-award > a{
+    text-decoration: none;
+    display: inline-block;
+    background: #2980b9;
+    color: pink !important;
+    padding: 15px 30px;
+    margin-top: 25px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+/* PORTFOLIO */
+
+.single-work img {
+    width: 100%;
+}
+.single-work {
+    margin-bottom: 30px;
+}
+.portfolio-area .section-padding {
+    margin-bottom: 30px;
+}
+
+/* TESTIMONIAL */
+.testimonial-area {
+    background-image: url(../images/woman-in-car-passenger-3.jpg);
+    position: relative;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+}
+.testimonial-area:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    z-index: -1;
+}
+.img-area {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img-area img {
+    width: 100%;
+}
+.single-testi {
+    text-align: center;
+    border: 1px solid pink;
+    color: pink;
+    padding: 15px 40px;
+}
+.testimonial-area .section-header {
+    color: pink;
+}
+.single-testi {
+    height: 100%;
+}
+.single-testi h2 {
+    font-family: 'Audiowide', cursive;
+    margin: 15px 0;
+    font-size: 25px;
+}
+
+/* CONTACT */
+.contact-area h2, .contact-area p {
+    text-align: center;
+}
+/* FOOTER */
+
+.footer-area {
+    color: pink;
+    background: #262626;
+    padding: 30px 0;
+    text-align: center;
+}
 
 
 
+/* 
+    Responsive
+*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-header h2 {
+        font-size: 35px;
+        font-weight: bold;
 
+    }
+    .navbar-toggler-icon i.fa {
+        color: pink;
+    }
+    .slider-text {
+        padding-top: 70%;
+    }
+    .about-img {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .item-text {
+        padding-left: 0;
+    }
 
+    .single-stats h2 {
+        font-size: 30px;
+    }
+    .single-stats p {
+        font-size: 14px;
+    }
+    .single-testi {
+        margin-bottom: 15px;
+    }
 
+}
+
+@media only screen and (max-width: 767px) {
+    .section-header h2 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .navbar-toggler-icon i.fa {
+        color: pink;
+    }
+    .slider-text h1 {
+        font-size: 22px;
+    }
+    .slider-text {
+        padding-top: 65%;
+    }
+    .slider-text h2 {
+        font-size: 20px;
+    }
+    .slider-text a {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .item-text {
+        margin-top: 30px;
+        padding-left: 0;
+    }
+    .item-text h4 {
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .about-img {
+        padding-right: 0;
+    }
+    .single-stats h2 {
+        font-size: 30px;
+    }
+    .single-award h2 {
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .single-award a {
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+    .single-testi {
+        padding: 15px 10px;
+        margin-bottom: 15px !important;
+    }
+    .single-testi-item {
+        padding: 10px 15px;
+    }
+
+}

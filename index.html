@@ -12,10 +12,18 @@
 
     <!-- Fontawesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-    
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
     <!-- Animated CSS -->
-    <link rel="stylesheet" href="./css/animated.css">    
-    <link rel="stylesheet" href="./css/style.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Transporte Feminino</title>
 </head>
 
@@ -32,72 +40,371 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">HOME</a>
-                    </li><li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PORTFOLIO</a>
+                        <a class="nav-link" href="#about">QUEM SOMOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">SERVICES</a>
+                        <a class="nav-link" href="#services">SERVIÇOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link" href="#portfolio">PORTIFÓLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTATO</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100 animated lightSpeedIn" style="animation-delay: 0ms; transition-duration: 3800ms;" src="./images/home.png" alt="Primeiro Slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h5 class="animated bounceInRight" style="animation-delay: 1s; transition-duration: 3s;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-                        <p  class="animated bounceInLeft" style="animation-delay: 2s; transition-duration: 3s;">lorem ipsum dolor sit amet</p>
-                        <button class="btn btn-warning btn-outline-warning animated bounceInDown"  style="animation-delay: 2200ms; transition-duration: 3s;">
+                <div class="carousel-item active">
+                        <img class="d-block w-100 banner banner1 animated pulse" style="animation-delay: 0ms; transition-duration: 3800ms;"
+                            alt="Segundo Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="animated bounceInRight" style="animation-delay: 300ms; transition-duration: 3s;">Lorem ipsum
+                                dolor sit amet consectetur adipisicing elit.</h5>
+                            <p class="animated bounceInLeft" style="animation-delay: 600ms; transition-duration: 3s;">lorem ipsum
+                                dolor sit amet</p>
+                            <button class="btn btn-success animated bounceInDown"
+                                style="animation-delay: 1s; transition-duration: 3s;">
                                 <i class="fas fa-phone"></i>
                                 Ligue e peça já o seu: (11) 3003-4004
-                        </button>
-                </div>
-            </div>
+                            </button>
+                        </div>
+                    </div>
             <div class="carousel-item">
-                <img class="d-block w-100 animated lightSpeedIn" style="animation-delay: 0ms; transition-duration: 3800ms;" src="./images/home.png" alt="Segundo Slide">
+                <img class="d-block w-100 banner banner2 animated pulse" style="animation-delay: 0ms; transition-duration: 3800ms;"
+                    alt="Segundo Slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5 class="animated bounceInRight" style="animation-delay: 1s; transition-duration: 3s;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-                    <p  class="animated bounceInLeft" style="animation-delay: 2s; transition-duration: 3s;">lorem ipsum dolor sit amet</p>
-                    <button class="btn btn-warning btn-outline-warning animated bounceInDown"  style="animation-delay: 2200ms; transition-duration: 3s;">
-                            <i class="fas fa-phone"></i>
-                            Ligue e peça já o seu: (11) 3003-4004
+                    <h5 class="animated bounceInRight" style="animation-delay: 300ms; transition-duration: 3s;">Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit.</h5>
+                    <p class="animated bounceInLeft" style="animation-delay: 600ms; transition-duration: 3s;">lorem ipsum
+                        dolor sit amet</p>
+                    <button class="btn btn-success animated bounceInDown"
+                        style="animation-delay: 1s; transition-duration: 3s;">
+                        <i class="fas fa-phone"></i>
+                        Ligue e peça já o seu: (11) 3003-4004
                     </button>
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 animated lightSpeedIn" style="animation-delay: 0ms; transition-duration: 3800ms;" src="./images/home.png" alt="Terceiro Slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h5 class="animated bounceInRight" style="animation-delay: 1s; transition-duration: 3s;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
-                        <p  class="animated bounceInLeft" style="animation-delay: 2s; transition-duration: 3s;">lorem ipsum dolor sit amet</p>
-                        <button class="btn btn-warning btn-outline-warning animated bounceInDown"  style="animation-delay: 2200ms; transition-duration: 3s;">
-                                <i class="fas fa-phone"></i>
-                                Ligue e peça já o seu: (11) 3003-4004
+                    <img class="d-block w-100 banner banner3 animated pulse" style="animation-delay: 0ms; transition-duration: 3800ms;"
+                        alt="Segundo Slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="animated bounceInRight" style="animation-delay: 300ms; transition-duration: 3s;">Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.</h5>
+                        <p class="animated bounceInLeft" style="animation-delay: 600ms; transition-duration: 3s;">lorem ipsum
+                            dolor sit amet</p>
+                        <button class="btn btn-success animated bounceInDown"
+                            style="animation-delay: 1s; transition-duration: 3s;">
+                            <i class="fas fa-phone"></i>
+                            Ligue e peça já o seu: (11) 3003-4004
                         </button>
+                    </div>
                 </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Anterior</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Próximo</span>
-    </a>
-</div>
+
+    <div id="about" class="about-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="section-header">
+                        <h2  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">QUEM SOMOS</h2>
+                        <p   data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">A Little bit about our Company</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-6">
+                    <div class="about-img wow" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <img src="./images/about.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="item-text">
+                        <h4 data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">LOREM IPSUM DOLOR</h4>
+                        <p  data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, quae repellat? Ipsum labore
+                            repellat impedit consectetur unde, totam asperiores veniam. Beatae quo eos vitae, architecto
+                            reprehenderit delectus quia doloribus assumenda.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stats-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+                    <div class="single-stats">
+                        <i class="fas fa-users fa-2x">
+                        </i>
+                        <h2>32</h2>
+                        <p>Lorem Ipsum Dolor</p>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+                    <div class="single-stats">
+                        <i class="fas fa-users fa-2x">
+                        </i>
+                        <h2>32</h2>
+                        <p>Lorem Ipsum Dolor</p>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-down" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+                    <div class="single-stats">
+                        <i class="fas fa-users fa-2x">
+                        </i>
+                        <h2>32</h2>
+                        <p>Lorem Ipsum Dolor</p>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+                    <div class="single-stats">
+                        <i class="fas fa-users fa-2x">
+                        </i>
+                        <h2>32</h2>
+                        <p>Lorem Ipsum Dolor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services" class="services-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 text-center">
+                    <div class="section-header">
+                        <h2 data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">NOSSOS SERVIÇOS</h2>
+                        <p  data-aos="fade-left"  data-aos-easing="ease-out-cubic" data-aos-duration="2000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, ipsa?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="single-service" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <i class="fas fa-users fa-2x"></i>
+                        <h2>Lorem Ipsum Dolor</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, quas? Ut, non incidunt.
+                            Expedita voluptas nemo laboriosam obcaecati ut iure quae, laudantium non architecto
+                            molestias corporis a doloribus quam optio.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="single-service">
+                        <i class="fas fa-users fa-2x"></i>
+                        <h2>Lorem Ipsum Dolor</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, quas? Ut, non incidunt.
+                            Expedita voluptas nemo laboriosam obcaecati ut iure quae, laudantium non architecto
+                            molestias corporis a doloribus quam optio.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="single-service" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <i class="fas fa-users fa-2x"></i>
+                        <h2>Lorem Ipsum Dolor</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, quas? Ut, non incidunt.
+                            Expedita voluptas nemo laboriosam obcaecati ut iure quae, laudantium non architecto
+                            molestias corporis a doloribus quam optio.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="single-service">
+                        <i class="fas fa-users fa-2x"></i>
+                        <h2>Lorem Ipsum Dolor</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, quas? Ut, non incidunt.
+                            Expedita voluptas nemo laboriosam obcaecati ut iure quae, laudantium non architecto
+                            molestias corporis a doloribus quam optio.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="single-service">
+                        <i class="fas fa-users fa-2x"></i>
+                        <h2>Lorem Ipsum Dolor</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, quas? Ut, non incidunt.
+                            Expedita voluptas nemo laboriosam obcaecati ut iure quae, laudantium non architecto
+                            molestias corporis a doloribus quam optio.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="single-service">
+                        <i class="fas fa-users fa-2x"></i>
+                        <h2>Lorem Ipsum Dolor</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, quas? Ut, non incidunt.
+                            Expedita voluptas nemo laboriosam obcaecati ut iure quae, laudantium non architecto
+                            molestias corporis a doloribus quam optio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="award-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-2" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="single-award">
+                        <h2>Lorem Ipsum Dolor.</h2>
+                        <a>Lorem Ipsum Dolor</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio" class="portfolio-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 text-center">
+                    <div class="section-header">
+                        <h2 data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">PORTIFÓLIO</h2>
+                        <p data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, corrupti.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="single-work">
+                        <img src="./images/women-driver-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="single-work">
+                        <img src="./images/women-driver-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="single-work">
+                        <img src="./images/women-driver-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="single-work">
+                        <img src="./images/women-driver-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="single-work">
+                        <img src="./images/women-driver-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="single-work">
+                        <img src="./images/women-driver-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="testimonial-area section-padding">
+        <div class="container" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 text-center">
+                    <div class="section-header">
+                        <h2>DEPOIMENTOS</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, quia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-xs-12 single-testi-item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="single-testi">
+                        <div class="img-area">
+                            <img src="./images/testimonial-1.jpg" alt="">
+                        </div>
+                        <h2>VANESSA VASCONSELOS</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aperiam perferendis saepe
+                            magnam deleniti
+                            expedita qui aspernatur? Cum, dolorem alias!</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xs-12 single-testi-item" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <div class="single-testi">
+                            <div class="img-area">
+                                <img src="./images/testimonial-2.jpg" alt="">
+                            </div>
+                            <h2>JOANA MIRANDA</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aperiam perferendis saepe
+                                magnam deleniti
+                                expedita qui aspernatur? Cum, dolorem alias!</p>
+                        </div>
+                </div>
+                <div class="col-lg-4 col-xs-12 single-testi-item" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                        <div class="single-testi">
+                            <div class="img-area">
+                                <img src="./images/testimonial-3.jpg" alt="">
+                            </div>
+                            <h2>TATIANE ALBUQUERQUE</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aperiam perferendis saepe
+                                magnam deleniti
+                                expedita qui aspernatur? Cum, dolorem alias!</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="contact-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header">
+                        <h2 data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Contact US</h2>
+                        <p data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 offset-2">
+                    <div class="single-form">
+                        <form data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="email help"
+                                    placeholder="Informe o email">
+                            </div>
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem</label>
+                                <textarea type="text" class="form-control" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer" class="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Copyright © Transporte Feminino - 2019 - Todos os diretos Reservados.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
@@ -110,6 +417,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> -->
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+        // new WOW().init();
+        AOS.init();
+    </script>
 </body>
 
 </html>
