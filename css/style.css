@@ -1,3 +1,10 @@
+* {
+    /* border: 0.001rem solid red; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -7,10 +14,15 @@ html {
 }
 
 .section-padding {
-    padding: 100px 0;
+    padding: 50px 0;
+    border: 0.01rem solid green;
 }
 .section-header {
-    padding-bottom: 30px;
+    display: flex;
+    justify-items: center !important;
+    align-items: center !important;
+    flex-direction: column;
+    border: 0.01rem solid blue;
 }
 
 .carousel-item {
@@ -22,16 +34,17 @@ html {
 }
 
 .carousel-caption {
-    bottom: 220px;
+    bottom: 150px;
 }
 
 .carousel-caption h5 {
     font-size: 45px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-top: 25px;
+    margin-top: 30px !important;
     font-family: merienda;
     color: pink;
+    display: block;
 }
 
 .carousel-caption p {
@@ -40,8 +53,13 @@ html {
     font-size: 18px;
     line-height: 1.9;
     font-family: poppins;
-    margin: 20px auto;
+    margin: 30px auto;
     color: pink;
+}
+
+.carousel-caption span {
+    display: block;
+    margin: 20px auto;
 }
 
 .carousel-caption button {
@@ -104,7 +122,7 @@ html {
 
 @media only screen and (max-width: 767px) {
     .navbar-nav.ml-auto {
-        background-color: rgb(255, 255, 255, 0.3);
+        background-color: rgb(0, 0, 0, 0.9);
     }
     .navbar-toggler {
         padding: 1px 5px;
@@ -122,6 +140,9 @@ html {
 
 
 /* ABOUT */
+/* .about-area {
+    width: 100vw;
+} */
 .about-img img {
     width: 100%;
 }
@@ -371,6 +392,7 @@ html {
 }
 
 @media only screen and (max-width: 767px) {
+    
     .section-header h2 {
         font-size: 22px;
         font-weight: bold;
@@ -416,10 +438,25 @@ html {
     }
     .single-testi {
         padding: 15px 10px;
-        margin-bottom: 15px !important;
+        margin-bottom: 15px;
     }
     .single-testi-item {
         padding: 10px 15px;
+    }
+
+    .banner-caption h5 {
+        font-size: 20px;
+    }
+    .banner-caption p, .banner-caption span {
+        font-size: 15px;
+    }
+    .banner-caption button {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .carousel-caption p {
+        width: 100%;
     }
 
 }
