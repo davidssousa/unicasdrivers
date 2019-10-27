@@ -160,7 +160,7 @@ html {
     height: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(180deg, #000, transparent);
+    background: linear-gradient(180deg,#000,transparent);
     z-index: 1;
 }
 
