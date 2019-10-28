@@ -13,16 +13,38 @@ html {
     scroll-behavior: smooth;
 }
 
+.img {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .section-padding {
-    padding: 50px 0;
-    border: 0.01rem solid green;
+    padding: 100px 0;
 }
 .section-header {
     display: flex;
     justify-items: center !important;
     align-items: center !important;
     flex-direction: column;
-    border: 0.01rem solid blue;
+    /* border: 0.01rem solid blue; */
+}
+
+.displayTopo {
+    display: none;
+}
+
+.displayNav {
+    background: rgba(0, 0, 0, 0.801) !important;
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    transition: all ease 1s;
+}
+
+.displayNav a {
+    color: pink !important;
 }
 
 .carousel-item {
@@ -30,7 +52,7 @@ html {
     min-height: 300px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
-    background-size: cover; 
+    background-size: cover;
 }
 
 .carousel-caption {
@@ -157,15 +179,8 @@ html {
 }
 
 /* BANNER */
-.banner1 {
-    background-image: url(../images/banner_1.png);
-}
-.banner2 {
-    background-image: url(../images/banner_2.jpg);
-}
-.banner3 {
-    background-image: url(../images/banner_3.jpg);
-}
+/* 1 */
+
 .banner {
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -189,7 +204,7 @@ html {
 /* STATS */
 
 .stats-area {
-    background-image: url(../images/about.jpg);
+    /* background-image: url(../images/about.jpg); */
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -249,7 +264,7 @@ html {
 
 .award-area {
     position: relative;
-    background-image: url(../images/about.jpg);
+    /* background-image: url(../images/about.jpg); */
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -296,7 +311,7 @@ html {
 
 /* TESTIMONIAL */
 .testimonial-area {
-    background-image: url(../images/woman-in-car-passenger-3.jpg);
+    background-image: url(../images/lg/woman-in-car-passenger-3.jpg);
     position: relative;
     -webkit-background-size: cover;
     background-size: cover;
@@ -359,7 +374,59 @@ html {
 /* 
     Responsive
 */
+
+/* tamanho: lg */
+@media only screen and (min-width: 992px) and (max-width: 5000px){
+    .banner1 {
+        background-image: url(../images/lg/banner_1.png);
+    }
+    .banner2 {
+        background-image: url(../images/lg/banner_2.jpg);
+    }
+    .banner3 {
+        background-image: url(../images/lg/banner_3.jpg);
+    }
+    .stats-area {
+        background-image: url(../images/lg/quem-somos.jpg);
+    }
+    .quemSomosImg {
+        background-image: url(../images/lg/quem-somos.jpg);
+        min-height: 300px;
+    }
+    .award-area {
+        background-image: url(../images/lg/about.jpg);
+    }
+    .testimonial-area {
+        background-image: url(../images/lg/woman-in-car-passenger-3.jpg);
+    }
+
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner1 {
+        background-image: url(../images/md/banner_1.png);
+    }
+    .banner2 {
+        background-image: url(../images/md/banner_2.jpg);
+    }
+    .banner3 {
+        background-image: url(../images/md/banner_3.jpg);
+    }
+    .stats-area {
+        background-image: url(../images/md/quem-somos.jpg);
+    }
+    .quemSomosImg {
+        background-image: url(../images/md/quem-somos.jpg);
+        min-height: 200px;
+    }
+    .award-area {
+        background-image: url(../images/md/about.jpg);
+    }
+    .testimonial-area {
+        background-image: url(../images/md/woman-in-car-passenger-3.jpg);
+    }
+
+
     .section-header h2 {
         font-size: 35px;
         font-weight: bold;
@@ -392,7 +459,27 @@ html {
 }
 
 @media only screen and (max-width: 767px) {
+    .banner1 {
+        background-image: url(../images/sm/banner_1.png);
+    }
+    .banner2 {
+        background-image: url(../images/sm/banner_2.jpg);
+    }
+    .banner3 {
+        background-image: url(../images/sm/banner_3.jpg);
+    }
+    .quemSomosImg {
+        background-image: url(../images/sm/quem-somos.jpg);
+        min-height: 200px;
+    }
+    .stats-area {
+        background-image: url(../images/sm/about.jpg);
+    }
     
+
+    .section-padding {
+        padding: 50px 0;
+    }
     .section-header h2 {
         font-size: 22px;
         font-weight: bold;
@@ -458,5 +545,6 @@ html {
     .carousel-caption p {
         width: 100%;
     }
-
+    
 }
+
