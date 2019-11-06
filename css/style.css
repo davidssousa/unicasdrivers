@@ -36,7 +36,7 @@ html {
 }
 
 .displayNav {
-    background: rgba(0, 0, 0, 0.801) !important;
+    background: #DF1068 !important;
     position: fixed !important;
     top: 0 !important;
     width: 100% !important;
@@ -44,7 +44,7 @@ html {
 }
 
 .displayNav a {
-    color: pink !important;
+    color: #fff !important;
 }
 
 .carousel-item {
@@ -56,16 +56,16 @@ html {
 }
 
 .carousel-caption {
-    bottom: 150px;
+    bottom: 120px;
 }
 
 .carousel-caption h5 {
     font-size: 45px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-top: 30px !important;
+    margin-top: 10px !important;
     font-family: merienda;
-    color: pink;
+    color: #fff;
     display: block;
 }
 
@@ -76,7 +76,7 @@ html {
     line-height: 1.9;
     font-family: poppins;
     margin: 30px auto;
-    color: pink;
+    color: #fff;
 }
 
 .carousel-caption span {
@@ -85,9 +85,9 @@ html {
 }
 
 .carousel-caption button {
-    color: pink;
+    color: #fff;
     border-radius: 30px;
-    border: 2px solid pink;
+    border: 2px solid #fff;
     padding: 10px 50px;
     font-weight: bold;
 }
@@ -102,8 +102,12 @@ html {
     background: #262626;
     padding: 10px 30px;
     display: inline-block;
-    color: pink;
+    color: #fff;
     margin-top: 15px;
+}
+
+.navbar-icon {
+    margin-left: 20%;
 }
 
 .navbar-nav a {
@@ -114,7 +118,7 @@ html {
 }
 
 .navbar-light .navbar-brand {
-    color: pink;
+    color: #fff;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: bold;
@@ -123,11 +127,11 @@ html {
 
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show, .navbar-light  .navbar-nav .show > .nav-link {
-    color: pink;
+    color: #fff;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: pink;
+    color: #fff;
 }
 
 .navbar-nav {
@@ -135,7 +139,7 @@ html {
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: pink !important;
+    color: #fff !important;
 }
 
 .w-100 {
@@ -150,13 +154,13 @@ html {
         padding: 1px 5px;
         font-size: 18px;
         line-height: 0.3;
-        background: pink; 
+        background: #fff; 
     }
     .navbar-light .navbar-brand {
         font-size: 15px;
     }
     li.nav-item.active > a.nav-link {
-        color: pink !important;
+        color: #fff !important;
     }
 }
 
@@ -223,7 +227,7 @@ html {
     z-index: -1;
 }
 .single-stats {
-    color: pink;
+    color: #fff;
     text-align: center;
 }
 .single-stats i {
@@ -256,11 +260,30 @@ html {
 }
 .single-service:hover {
     background: #262626;
-    color: pink;
+    color: #fff;
     transition: .6s;
 }
 
-/* AWARD */
+.single-service-inverse {
+    border: 1px solid #ddd;
+    padding: 30px 20px;
+    margin-bottom: 15px;
+    color: #fff;
+    background: #DF1068;
+}
+.single-service-inverse h2 {
+    margin: 15px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.single-service-inverse:hover {
+    background: #262626;
+    color: #fff;
+    transition: .6s;
+}
+
+/* AWARD  #262626 */
 
 .award-area {
     position: relative;
@@ -282,15 +305,15 @@ html {
     z-index: -1;
 }
 .single-award h2 {
-    color: pink;
+    color: #fff;
     text-transform: uppercase;
     font-family: 'Audiowide', cursive;
 }
 .single-award > a{
     text-decoration: none;
     display: inline-block;
-    background: #2980b9;
-    color: pink !important;
+    background: #DF1068;
+    color: #fff !important;
     padding: 15px 30px;
     margin-top: 25px;
     border-radius: 50px;
@@ -340,12 +363,12 @@ html {
 }
 .single-testi {
     text-align: center;
-    border: 1px solid pink;
-    color: pink;
+    border: 1px solid #fff;
+    color: #fff;
     padding: 15px 40px;
 }
 .testimonial-area .section-header {
-    color: pink;
+    color: #fff;
 }
 .single-testi {
     height: 100%;
@@ -360,11 +383,18 @@ html {
 .contact-area h2, .contact-area p {
     text-align: center;
 }
+.btnUnicas {
+    background: #DF1068;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: #ddd;
+    font-weight: bold;
+}
 /* FOOTER */
 
 .footer-area {
-    color: pink;
-    background: #262626;
+    color: #fff;
+    background: #DF1068;
     padding: 30px 0;
     text-align: center;
 }
@@ -433,7 +463,7 @@ html {
 
     }
     .navbar-toggler-icon i.fa {
-        color: pink;
+        color: #fff;
     }
     .slider-text {
         padding-top: 70%;
@@ -485,7 +515,7 @@ html {
         font-weight: bold;
     }
     .navbar-toggler-icon i.fa {
-        color: pink;
+        color: #fff;
     }
     .slider-text h1 {
         font-size: 22px;
