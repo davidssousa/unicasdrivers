@@ -1,5 +1,5 @@
 * {
-    /* border: 0.001rem solid red; */
+    /* border: 0.001rem solid blue; */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -45,6 +45,24 @@ html {
 
 .displayNav a {
     color: #fff !important;
+}
+
+.logo-rosa {
+    background-image: url(../images/lg/logo_claro/logo-rosa-jpeg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.logo-transparente {
+    background-image: url(../images/lg/logo_claro/logo-transp.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 80px;
 }
 
 .carousel-item {
