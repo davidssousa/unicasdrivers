@@ -13,6 +13,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.bgUnicas {
+    background: #DF1068;
+}
+
 .img {
     -webkit-background-size: cover;
     background-size: cover;
@@ -426,13 +430,13 @@ html {
 /* tamanho: lg */
 @media only screen and (min-width: 992px) and (max-width: 5000px){
     .banner1 {
-        background-image: url(../images/lg/banner_1.png);
-    }
-    .banner2 {
         background-image: url(../images/lg/banner_2.jpg);
     }
-    .banner3 {
+    .banner2 {
         background-image: url(../images/lg/banner_3.jpg);
+    }
+    .banner3 {
+        background-image: url(../images/lg/banner_1.png);
     }
     .stats-area {
         background-image: url(../images/lg/quem-somos.jpg);
@@ -452,13 +456,13 @@ html {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .banner1 {
-        background-image: url(../images/md/banner_1.png);
-    }
-    .banner2 {
         background-image: url(../images/md/banner_2.jpg);
     }
-    .banner3 {
+    .banner2 {
         background-image: url(../images/md/banner_3.jpg);
+    }
+    .banner3 {
+        background-image: url(../images/md/banner_1.png);
     }
     .stats-area {
         background-image: url(../images/md/quem-somos.jpg);
@@ -508,13 +512,13 @@ html {
 
 @media only screen and (max-width: 767px) {
     .banner1 {
-        background-image: url(../images/sm/banner_1.png);
-    }
-    .banner2 {
         background-image: url(../images/sm/banner_2.jpg);
     }
-    .banner3 {
+    .banner2 {
         background-image: url(../images/sm/banner_3.jpg);
+    }
+    .banner3 {
+        background-image: url(../images/sm/banner_1.png);
     }
     .quemSomosImg {
         background-image: url(../images/sm/quem-somos.jpg);
