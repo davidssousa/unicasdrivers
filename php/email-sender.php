@@ -3,7 +3,7 @@ session_cache_limiter('nocache');
 header('Expires: ' . gmdate('r', 0));
 header('Content-type: application/json');
 
-$Recipient = 'david.sousa@msn.com'; // <-- Set your email here
+$Recipient = 'contato@unicasdrivers.com.br'; // <-- Set your email here
 
 $subject = $_POST['subject'];
 
@@ -11,6 +11,7 @@ if($Recipient) {
 
 	$Name = $_POST['name'];
 	$Email = $_POST['email'];
+	$Telefone = $_POST['telefone'];
 	$Subject = $_POST['subject'];
 	$Message = $_POST['message'];
 	$Guests = $_POST['guests'];
@@ -19,6 +20,7 @@ if($Recipient) {
 
 	$Email_body = "";
 	$Email_body .= "From: " . $Name . "\n" .
+				   "Telefone: " . $Telefone . "\n" .
 				   "Email: " . $Email . "\n" .
 				   "Subject: " . $Subject . "\n" .
 				   "Message: " . $Message . "\n" .
