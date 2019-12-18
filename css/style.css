@@ -52,7 +52,8 @@ html {
 }
 
 .logo-rosa {
-    background-image: url(../images/lg/logo_claro/logo-rosa-jpeg.jpg);
+    /* background-image: url(../images/lg/logo_claro/logo-rosa-jpeg.jpg); */
+    background-image: url(../images/lg/logo_escuro/logo-jpeg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
