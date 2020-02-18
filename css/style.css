@@ -208,6 +208,18 @@ html {
 /* BANNER */
 /* 1 */
 
+.divulgacao {
+    /* background-attachment: fixed; */
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    /* position: relative; */
+    z-index: 1;
+    height: 100%;
+    /* width: 100%; */
+}
+
+
 .banner {
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -224,6 +236,28 @@ html {
     top: 0;
     left: 0;
     background: linear-gradient(180deg,#000,transparent);
+    z-index: 1;
+}
+
+.banner_folder {
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    /* width: 100% !important; */
+    /* height: auto !important; */
+    /* display: block; */
+}
+.banner_folder:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* background: linear-gradient(180deg,#000,transparent); */
     z-index: 1;
 }
 
@@ -430,14 +464,35 @@ html {
 
 /* tamanho: lg */
 @media only screen and (min-width: 992px) and (max-width: 5000px){
+    .divulgacao1 {
+        background-image: url(../images/lg/divulgacao_001.jpeg);
+        max-width: 800px;
+    }
+    .divulgacao2 {
+        background-image: url(../images/lg/divulgacao_002.jpeg);
+        max-width: 800px;
+    }
+    .divulgacao3 {
+        background-image: url(../images/lg/divulgacao_003.jpeg);
+        max-width: 800px;
+    }
+    .divulgacao4 {
+        background-image: url(../images/lg/divulgacao_004.jpeg);
+        max-width: 800px;
+    }
+    .divulgacao5 {
+        background-image: url(../images/lg/divulgacao_005.jpeg);
+        max-width: 800px;
+    }
     .banner1 {
-        background-image: url(../images/lg/banner_2.jpg);
+        background-image: url(../images/lg/banner_1.jpg);
+        height: 100%;
     }
     .banner2 {
-        background-image: url(../images/lg/banner_3.jpg);
+        background-image: url(../images/lg/banner_2.jpg);
     }
     .banner3 {
-        background-image: url(../images/lg/banner_1.png);
+        background-image: url(../images/lg/banner_3.jpg);
     }
     .stats-area {
         background-image: url(../images/lg/quem-somos.jpg);
@@ -457,13 +512,13 @@ html {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .banner1 {
-        background-image: url(../images/md/banner_2.jpg);
+        background-image: url(../images/md/banner_1.jpg);
     }
     .banner2 {
-        background-image: url(../images/md/banner_3.jpg);
+        background-image: url(../images/md/banner_2.jpg);
     }
     .banner3 {
-        background-image: url(../images/md/banner_1.png);
+        background-image: url(../images/md/banner_3.jpg);
     }
     .stats-area {
         background-image: url(../images/md/quem-somos.jpg);
@@ -512,14 +567,23 @@ html {
 }
 
 @media only screen and (max-width: 767px) {
+    .divulgacao1 {
+        background-image: url(../images/sm/divulgacao_001.jpeg);
+        height: 400px;
+        width: 100%;
+    }
+    .divulgacao2 {
+        background-image: url(../images/sm/divulgacao_002.jpeg);
+    }
     .banner1 {
-        background-image: url(../images/sm/banner_2.jpg);
+        background-image: url(../images/sm/banner_1.jpg);
+        width: 500px !important;
     }
     .banner2 {
-        background-image: url(../images/sm/banner_3.jpg);
+        background-image: url(../images/sm/banner_2.jpg);
     }
     .banner3 {
-        background-image: url(../images/sm/banner_1.png);
+        background-image: url(../images/sm/banner_3.jpg);
     }
     .quemSomosImg {
         background-image: url(../images/sm/quem-somos.jpg);
