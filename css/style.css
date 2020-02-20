@@ -177,7 +177,7 @@ html {
         padding: 1px 5px;
         font-size: 18px;
         line-height: 0.3;
-        background: #fff; 
+        background: #fff;
     }
     .navbar-light .navbar-brand {
         font-size: 15px;
@@ -208,15 +208,22 @@ html {
 /* BANNER */
 /* 1 */
 
+
+
 .divulgacao {
     /* background-attachment: fixed; */
-    -webkit-background-size: cover;
-    background-size: cover;
+    /* -webkit-background-size: cover; */
+    /* background-size: cover; */
     background-position: center center;
     /* position: relative; */
+    background-repeat: no-repeat;
     z-index: 1;
-    height: 100%;
-    /* width: 100%; */
+    /* height: 100%; */
+    width: 100%;
+}
+
+* {
+    border: 0.001rem solid red;
 }
 
 
@@ -458,35 +465,38 @@ html {
 
 
 
-/* 
+/*
     Responsive
 */
 
 /* tamanho: lg */
 @media only screen and (min-width: 992px) and (max-width: 5000px){
     .divulgacao1 {
-        background-image: url(../images/lg/divulgacao_001.jpeg);
-        max-width: 800px;
+        background-image: url(../images/lg/divulgacao_001.jpg);
     }
     .divulgacao2 {
-        background-image: url(../images/lg/divulgacao_002.jpeg);
-        max-width: 800px;
+        background-image: url(../images/lg/divulgacao_002.jpg);
     }
     .divulgacao3 {
-        background-image: url(../images/lg/divulgacao_003.jpeg);
-        max-width: 800px;
+        background-image: url(../images/lg/divulgacao_003.jpg);
     }
     .divulgacao4 {
-        background-image: url(../images/lg/divulgacao_004.jpeg);
-        max-width: 800px;
+        background-image: url(../images/lg/divulgacao_004.jpg);
     }
     .divulgacao5 {
-        background-image: url(../images/lg/divulgacao_005.jpeg);
-        max-width: 800px;
+        background-image: url(../images/lg/divulgacao_005.jpg);
+    }
+    .divulgacao6 {
+        background-image: url(../images/lg/divulgacao_006.jpg);
+    }
+    .divulgacao7 {
+        background-image: url(../images/lg/divulgacao_007.jpg);
+    }
+    .divulgacao8 {
+        background-image: url(../images/lg/divulgacao_008.jpg);
     }
     .banner1 {
         background-image: url(../images/lg/banner_01.jpg);
-        height: 100%;
     }
     .banner2 {
         background-image: url(../images/lg/banner_2.jpg);
@@ -499,7 +509,6 @@ html {
     }
     .quemSomosImg {
         background-image: url(../images/lg/quem-somos.jpg);
-        min-height: 300px;
     }
     .award-area {
         background-image: url(../images/lg/about.jpg);
@@ -569,15 +578,12 @@ html {
 @media only screen and (max-width: 767px) {
     .divulgacao1 {
         background-image: url(../images/sm/divulgacao_001.jpeg);
-        height: 400px;
-        width: 100%;
     }
     .divulgacao2 {
         background-image: url(../images/sm/divulgacao_002.jpeg);
     }
     .banner1 {
         background-image: url(../images/sm/banner_1.jpg);
-        width: 500px !important;
     }
     .banner2 {
         background-image: url(../images/sm/banner_2.jpg);
@@ -587,12 +593,11 @@ html {
     }
     .quemSomosImg {
         background-image: url(../images/sm/quem-somos.jpg);
-        min-height: 200px;
     }
     .stats-area {
         background-image: url(../images/sm/about.jpg);
     }
-    
+
 
     .section-padding {
         padding: 50px 0;
@@ -662,6 +667,6 @@ html {
     .carousel-caption p {
         width: 100%;
     }
-    
+
 }
 
