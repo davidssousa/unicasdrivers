@@ -520,6 +520,30 @@ html {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .divulgacao1 {
+        background-image: url(../images/md/divulgacao_001.jpg);
+    }
+    .divulgacao2 {
+        background-image: url(../images/md/divulgacao_002.jpg);
+    }
+    .divulgacao3 {
+        background-image: url(../images/md/divulgacao_003.jpg);
+    }
+    .divulgacao4 {
+        background-image: url(../images/md/divulgacao_004.jpg);
+    }
+    .divulgacao5 {
+        background-image: url(../images/md/divulgacao_005.jpg);
+    }
+    .divulgacao6 {
+        background-image: url(../images/md/divulgacao_006.jpg);
+    }
+    .divulgacao7 {
+        background-image: url(../images/md/divulgacao_007.jpg);
+    }
+    .divulgacao8 {
+        background-image: url(../images/md/divulgacao_008.jpg);
+    }
     .banner1 {
         background-image: url(../images/md/banner_1.jpg);
     }
@@ -577,10 +601,28 @@ html {
 
 @media only screen and (max-width: 767px) {
     .divulgacao1 {
-        background-image: url(../images/sm/divulgacao_001.jpeg);
+        background-image: url(../images/sm/divulgacao_001.jpg);
     }
     .divulgacao2 {
-        background-image: url(../images/sm/divulgacao_002.jpeg);
+        background-image: url(../images/sm/divulgacao_002.jpg);
+    }
+    .divulgacao3 {
+        background-image: url(../images/sm/divulgacao_003.jpg);
+    }
+    .divulgacao4 {
+        background-image: url(../images/sm/divulgacao_004.jpg);
+    }
+    .divulgacao5 {
+        background-image: url(../images/sm/divulgacao_005.jpg);
+    }
+    .divulgacao6 {
+        background-image: url(../images/sm/divulgacao_006.jpg);
+    }
+    .divulgacao7 {
+        background-image: url(../images/sm/divulgacao_007.jpg);
+    }
+    .divulgacao8 {
+        background-image: url(../images/sm/divulgacao_008.jpg);
     }
     .banner1 {
         background-image: url(../images/sm/banner_1.jpg);
