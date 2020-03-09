@@ -212,14 +212,15 @@ html {
 
 .divulgacao {
     /* background-attachment: fixed; */
-    /* -webkit-background-size: cover; */
+    /* -webkit-background-size: ; */
     /* background-size: cover; */
-    background-position: center center;
-    /* position: relative; */
+    background-position: center top;
+    background-size: contain;
     background-repeat: no-repeat;
+    position: relative;
     z-index: 1;
     /* height: 100%; */
-    width: 100%;
+    top: 0;
 }
 
 /* * {
@@ -602,6 +603,7 @@ html {
 @media only screen and (max-width: 767px) {
     .divulgacao1 {
         background-image: url(../images/sm/divulgacao_001.jpg);
+        
     }
     .divulgacao2 {
         background-image: url(../images/sm/divulgacao_002.jpg);
@@ -711,4 +713,3 @@ html {
     }
 
 }
-
