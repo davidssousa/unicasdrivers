@@ -27,6 +27,15 @@
   <link rel="stylesheet" href="./css/style.css">
 
   <title>Únicas Drivers</title>
+
+  <link rel="stylesheet" href="./css/core.css">
+  <link rel="stylesheet" href="./css/media_576.portrait.css">
+  <link rel="stylesheet" href="./css/media_576.css">
+  <link rel="stylesheet" href="./css/media_577a767.css">
+  <link rel="stylesheet" href="./css/media_768a991.css"> 
+  <link rel="stylesheet" href="./css/media_992a1199.css"> 
+  <link rel="stylesheet" href="./css/media_1200.css">
+
 </head>
 
 <body>
@@ -66,8 +75,19 @@
   </nav>
 
 
+  <div class="pages">
+    <div class="slider">
+      <div class="slide"><img id="img1" class="animar" alt=""></div>
+      <div class="slide"><img id="img2" class="animar" alt=""></div>
+      <div class="slide"><img id="img3" class="animar" alt=""></div>
+      <div class="slide"><img id="img4" class="animar" alt=""></div>
+      <div class="slide"><img id="img5" class="animar" alt=""></div>
+      <div class="slide"><img id="img6" class="animar" alt=""></div>
+    </div>
+  </div>
 
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+  <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -78,13 +98,13 @@
         <img class="d-block w-100 banner_folder banner1 animated pulse"
           style="animation-delay: 0ms; transition-duration: 3800ms;">
         <div class="carousel-caption d-md-block banner-caption">
-          <!-- <h5 class="animated bounceInRight" style="animation-delay: 300ms; transition-duration: 3s;">Únicas Drivers direto para você</h5> -->
-          <!-- <p class="animated bounceInLeft" style="animation-delay: 600ms; transition-duration: 3s;">Conforto e segurança que a mulher merece!</p> -->
-          <!-- <span class="animated bounceInUp" style="animation-delay: 600ms; transition-duration: 3s;">Seja mais uma</span>
+          <h5 class="animated bounceInRight" style="animation-delay: 300ms; transition-duration: 3s;">Únicas Drivers direto para você</h5>
+          <p class="animated bounceInLeft" style="animation-delay: 600ms; transition-duration: 3s;">Conforto e segurança que a mulher merece!</p>
+          <span class="animated bounceInUp" style="animation-delay: 600ms; transition-duration: 3s;">Seja mais uma</span>
           <button class="btn btn-success animated bounceInDown bgUnicas" style="animation-delay: 1s; transition-duration: 3s;">
             <i class="fas fa-phone"></i>
             Cadastre-se agora!
-          </button> -->
+          </button>
         </div>
       </div>
       <div class="carousel-item">
@@ -122,7 +142,7 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Próximo</span>
     </a>
-  </div>
+  </div> -->
 
 
   <div id="about" class="about-area section-padding">
@@ -136,12 +156,19 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12 col-lg-6">
+        <div class="col-md-12 col-lg-12">
           <div class="about-img" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-            <img class="img quemSomosImg">
+            <!-- <img class="img quemSomosImg"> -->
+            <div id="iframe-container" data-aos="slide-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+              <div class="responsive">
+                <iframe width="800" height="800" src="./video/unicasdrivers_apresentacao.mp4" frameborder="0"
+                  allowfullscreen></iframe>
+              </div>
+              <hr>
+            </div>
           </div>
         </div>
-        <div class="col-md-12 col-lg-6">
+        <div class="col-md-12 col-lg-8 offset-2" style="text-align: center;">
           <div class="item-text">
             <h4 data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Conforto e segurança que a mulher merece!</h4>
             <p data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Somos um aplicativo exclusivo para mulheres!
@@ -538,6 +565,7 @@
     });
   </script>
   <script src="//code.jivosite.com/widget.js" data-jv-id="1WO1HVKwB6" async></script>
+  <!-- <script src="./js/index.js"></script> -->
 </body>
 
 </html>

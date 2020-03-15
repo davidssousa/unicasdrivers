@@ -1,0 +1,26 @@
+@media screen and (max-width: 576px) and (orientation: landscape) {
+    .titulo {
+        height: 70px;
+        line-height: 70px;
+        font-size: 25px;
+    }
+
+    nav h1::after {
+        content: 'MOBILE - LANDSCAPE <= 576px'
+    }
+
+    #img1 {
+        background-image: url('../images/banner_03.jpg');
+        animation-delay: 0s;
+    }
+    #img2 {
+        background-image: url('../images/banner_02.jpg');
+        animation-delay: 7s;
+    }
+    #img3 {
+        background-image: url('../images/banner_01.jpg');
+        animation-delay: 14s;
+    }
+}
+
+

@@ -1,0 +1,38 @@
+@media screen and (min-width: 1200px) and (orientation: landscape) {
+    .titulo {
+        height: 100px;
+        line-height: 100px;
+        font-size: 30px;
+    }
+
+    /* nav h1::after {
+        content: 'DESKTOP >>= 1200px'
+    } */
+
+    #img1 {
+        background-image: url('../images/banner_06.jpg');
+        animation-delay: 0s;
+    }
+    #img2 {
+        background-image: url('../images/banner_01.jpg');
+        animation-delay: 7s;
+    }
+    #img3 {
+        background-image: url('../images/banner_02.jpg');
+        animation-delay: 14s;
+    }
+    #img4 {
+        background-image: url('../images/banner_03.jpg');
+        animation-delay: 21s;
+    }
+    #img5 {
+        background-image: url('../images/banner_04.jpg');
+        animation-delay: 28s;
+    }
+    #img6 {
+        background-image: url('../images/banner_05.jpg');
+        animation-delay: 35s;
+    }
+}
+
+
