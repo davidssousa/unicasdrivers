@@ -8,28 +8,105 @@
     }
 
     #img1 {
-        background-image: url('../images/banner_06.jpg');
+        background-image: url('../images/banner_01.jpg');
         animation-delay: 0s;
     }
     #img2 {
-        background-image: url('../images/banner_01.jpg');
-        animation-delay: 7s;
+        background-image: url('../images/banner_02.jpg');
+        animation-delay: 5s;
     }
     #img3 {
-        background-image: url('../images/banner_02.jpg');
-        animation-delay: 14s;
+        background-image: url('../images/banner_03.jpg');
+        animation-delay: 10s;
     }
     #img4 {
-        background-image: url('../images/banner_03.jpg');
-        animation-delay: 21s;
+        background-image: url('../images/banner_04.jpg');
+        animation-delay: 15s;
     }
     #img5 {
-        background-image: url('../images/banner_04.jpg');
-        animation-delay: 28s;
+        background-image: url('../images/banner_05.jpg');
+        animation-delay: 20s;
     }
     #img6 {
-        background-image: url('../images/banner_05.jpg');
-        animation-delay: 35s;
+        background-image: url('../images/banner_06.jpg');
+        animation-delay: 25s;
+    }
+
+    .divulgacao1 {
+        background-image: url(../images/md/divulgacao_001.jpg);
+    }
+    .divulgacao2 {
+        background-image: url(../images/md/divulgacao_002.jpg);
+    }
+    .divulgacao3 {
+        background-image: url(../images/md/divulgacao_003.jpg);
+    }
+    .divulgacao4 {
+        background-image: url(../images/md/divulgacao_004.jpg);
+    }
+    .divulgacao5 {
+        background-image: url(../images/md/divulgacao_005.jpg);
+    }
+    .divulgacao6 {
+        background-image: url(../images/md/divulgacao_006.jpg);
+    }
+    .divulgacao7 {
+        background-image: url(../images/md/divulgacao_007.jpg);
+    }
+    .divulgacao8 {
+        background-image: url(../images/md/divulgacao_008.jpg);
+    }
+    .banner1 {
+        background-image: url(../images/md/banner_1.jpg);
+    }
+    .banner2 {
+        background-image: url(../images/md/banner_2.jpg);
+    }
+    .banner3 {
+        background-image: url(../images/md/banner_3.jpg);
+    }
+    .stats-area {
+        background-image: url(../images/md/quem-somos.jpg);
+    }
+    .quemSomosImg {
+        background-image: url(../images/md/quem-somos.jpg);
+        min-height: 200px;
+    }
+    .award-area {
+        background-image: url(../images/md/about.jpg);
+    }
+    .testimonial-area {
+        background-image: url(../images/md/woman-in-car-passenger-3.jpg);
+    }
+
+
+    .section-header h2 {
+        font-size: 35px;
+        font-weight: bold;
+
+    }
+    .navbar-toggler-icon i.fa {
+        color: #fff;
+    }
+    .slider-text {
+        padding-top: 70%;
+    }
+    .about-img {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .item-text {
+        padding-left: 0;
+    }
+
+    .single-stats h2 {
+        font-size: 30px;
+    }
+    .single-stats p {
+        font-size: 14px;
+    }
+    .single-testi {
+        margin-bottom: 15px;
     }
 }
 

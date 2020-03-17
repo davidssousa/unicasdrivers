@@ -50,14 +50,9 @@ nav h1 {
         background-repeat: no-repeat;
         backface-visibility: hidden;
         opacity: 0;
-        transform: scale(1.1) rotate(2deg);
-        /* animation: animate 7s; */
+        transform: scale(1.2) rotate(3deg);
+        animation: animate 30s infinite;
     }
-
-    .animar {
-        animation: animate 42s infinite;
-    }
-
 
     /* .slider::after {
         content: '';
@@ -69,8 +64,8 @@ nav h1 {
     } */
 
     @keyframes animate {
-        6% { opacity: 1; transform: scale(1) rotate(0); }
-        50% { opacity: 0; }
+        10% { opacity: 1; transform: scale(1) rotate(0); }
+        70% { opacity: 0; }
     }
 
 .pages .quemSomos {

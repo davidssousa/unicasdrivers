@@ -8,28 +8,74 @@
     }
 
     #img1 {
-        background-image: url('../images/banner_06.jpg');
+        background-image: url('../images/banner_01.jpg');
         animation-delay: 0s;
     }
     #img2 {
-        background-image: url('../images/banner_01.jpg');
-        animation-delay: 7s;
+        background-image: url('../images/banner_02.jpg');
+        animation-delay: 5s;
     }
     #img3 {
-        background-image: url('../images/banner_02.jpg');
-        animation-delay: 14s;
+        background-image: url('../images/banner_03.jpg');
+        animation-delay: 10s;
     }
     #img4 {
-        background-image: url('../images/banner_03.jpg');
-        animation-delay: 21s;
+        background-image: url('../images/banner_04.jpg');
+        animation-delay: 15s;
     }
     #img5 {
-        background-image: url('../images/banner_04.jpg');
-        animation-delay: 28s;
+        background-image: url('../images/banner_05.jpg');
+        animation-delay: 20s;
     }
     #img6 {
-        background-image: url('../images/banner_05.jpg');
-        animation-delay: 35s;
+        background-image: url('../images/banner_06.jpg');
+        animation-delay: 25s;
+    }
+
+    .divulgacao1 {
+        background-image: url(../images/lg/divulgacao_001.jpg);
+    }
+    .divulgacao2 {
+        background-image: url(../images/lg/divulgacao_002.jpg);
+    }
+    .divulgacao3 {
+        background-image: url(../images/lg/divulgacao_003.jpg);
+    }
+    .divulgacao4 {
+        background-image: url(../images/lg/divulgacao_004.jpg);
+    }
+    .divulgacao5 {
+        background-image: url(../images/lg/divulgacao_005.jpg);
+    }
+    .divulgacao6 {
+        background-image: url(../images/lg/divulgacao_006.jpg);
+    }
+    .divulgacao7 {
+        background-image: url(../images/lg/divulgacao_007.jpg);
+    }
+    .divulgacao8 {
+        background-image: url(../images/lg/divulgacao_008.jpg);
+    }
+    .banner1 {
+        background-image: url(../images/lg/banner_01.jpg);
+    }
+    .banner2 {
+        background-image: url(../images/lg/banner_2.jpg);
+    }
+    .banner3 {
+        background-image: url(../images/lg/banner_3.jpg);
+    }
+    .stats-area {
+        background-image: url(../images/lg/quem-somos.jpg);
+    }
+    .quemSomosImg {
+        background-image: url(../images/lg/quem-somos.jpg);
+    }
+    .award-area {
+        background-image: url(../images/lg/about.jpg);
+    }
+    .testimonial-area {
+        background-image: url(../images/lg/woman-in-car-passenger-3.jpg);
     }
 }
 

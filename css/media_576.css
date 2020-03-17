@@ -10,16 +10,28 @@
     }
 
     #img1 {
-        background-image: url('../images/banner_03.jpg');
+        background-image: url('../images/banner_01.jpg');
         animation-delay: 0s;
     }
     #img2 {
         background-image: url('../images/banner_02.jpg');
-        animation-delay: 7s;
+        animation-delay: 5s;
     }
     #img3 {
-        background-image: url('../images/banner_01.jpg');
-        animation-delay: 14s;
+        background-image: url('../images/banner_03.jpg');
+        animation-delay: 10s;
+    }
+    #img4 {
+        background-image: url('../images/banner_04.jpg');
+        animation-delay: 15s;
+    }
+    #img5 {
+        background-image: url('../images/banner_05.jpg');
+        animation-delay: 20s;
+    }
+    #img6 {
+        background-image: url('../images/banner_06.jpg');
+        animation-delay: 25s;
     }
 }
 

@@ -471,7 +471,7 @@ html {
 */
 
 /* tamanho: lg */
-@media only screen and (min-width: 992px) and (max-width: 5000px){
+/* @media only screen and (min-width: 992px) and (max-width: 5000px){
     .divulgacao1 {
         background-image: url(../images/lg/divulgacao_001.jpg);
     }
@@ -518,9 +518,9 @@ html {
         background-image: url(../images/lg/woman-in-car-passenger-3.jpg);
     }
 
-}
+} */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
     .divulgacao1 {
         background-image: url(../images/md/divulgacao_001.jpg);
     }
@@ -598,7 +598,7 @@ html {
         margin-bottom: 15px;
     }
 
-}
+} */
 
 @media only screen and (max-width: 767px) {
     .divulgacao1 {
